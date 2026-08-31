@@ -24,18 +24,17 @@
    ============================================================ */
 
 window.POSTS = [
-  {
-    id: "hello-world",
-    title: "Hello, world — this is a sample post",
-    date: "2026-08-31",
-    summary:
-      "Delete me once you have posted your own video. I exist to show you what the fields look like.",
-    video: { type: "youtube", id: "aqz-KE-bpKQ" },
-    tags: ["sample"],
-    body: `This is the post body. Write whatever you like here — a description of the video, credits, links, gear you used.
-
-Leave a blank line between paragraphs and they render as separate paragraphs.
-
-To remove this post, open posts.js and delete this whole block.`
-  }
+  // Your posts go here, newest first. Copy the template below to start one:
+  //
+  // {
+  //   id: "my-first-video",
+  //   title: "My first video",
+  //   date: "2026-09-01",
+  //   summary: "One line about it, shown on the home page.",
+  //   video: { type: "youtube", id: "dQw4w9WgXcQ" },
+  //   tags: ["vlog"],
+  //   body: `The longer description.
+  //
+  // Blank lines become new paragraphs.`
+  // },
 ];
