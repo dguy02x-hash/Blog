@@ -36,13 +36,8 @@ YouTube posts get a thumbnail automatically. For anything else, add
 
 ## Going live on GitHub Pages
 
-The repository already contains the deploy workflow. Once:
-
-1. Push this branch and merge it into your default branch (`main`).
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-
-That's it. The site publishes at:
+The included workflow turns Pages on by itself the first time it runs, so
+pushing to the default branch is all it takes. The site publishes at:
 
 ```
 https://dguy02x-hash.github.io/Blog/
@@ -50,6 +45,9 @@ https://dguy02x-hash.github.io/Blog/
 
 Every later push to the default branch redeploys automatically — watch it run
 under the repository's **Actions** tab.
+
+If you ever want to check or change the setting, it lives under **Settings →
+Pages → Build and deployment**, where **Source** should read *GitHub Actions*.
 
 > Prefer not to use Actions? Set **Source** to *Deploy from a branch*, pick your
 > default branch and the `/ (root)` folder instead. The included `.nojekyll`
