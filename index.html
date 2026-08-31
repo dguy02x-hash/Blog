@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Video Blog</title>
+<meta name="description" content="Videos I make, collected in one place.">
+<meta property="og:title" content="My Video Blog">
+<meta property="og:description" content="Videos I make, collected in one place.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">My Video Blog</a>
+    <nav class="nav">
+      <a href="index.html">Videos</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Videos I make</h1>
+      <p>A running log of everything I film, edit and publish. Newest first.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search videos…" aria-label="Search videos">
+      <span class="count" id="count"></span>
+    </div>
+    <ul class="grid" id="post-grid"></ul>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> My Video Blog</span>
+    <span>Built as a static site, hosted on GitHub Pages.</span>
+  </div>
+</footer>
+
+<script>window.SITE_TITLE = "My Video Blog";</script>
+<script src="posts.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
