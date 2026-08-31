@@ -36,16 +36,8 @@ YouTube posts get a thumbnail automatically. For anything else, add
 
 ## Going live on GitHub Pages
 
-The repository already contains the deploy workflow; Pages itself needs one
-switch flipped by hand, because the workflow's token is not allowed to turn it
-on for you:
-
-1. Go to **Settings → Pages**.
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-3. Open the **Actions** tab and re-run the latest *Deploy to GitHub Pages* run
-   (or just push any commit).
-
-The site then publishes at:
+Already set up — Pages is enabled with **Source: GitHub Actions**, and the
+deploy workflow ships in this repository. The site is live at:
 
 ```
 https://dguy02x-hash.github.io/Blog/

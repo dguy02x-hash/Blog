@@ -1,7 +1,7 @@
 # Publishes the site to GitHub Pages on every push to the default branch.
-# One-time setup: repo Settings -> Pages -> Build and deployment -> Source:
-# "GitHub Actions". The workflow token is not allowed to switch Pages on by
-# itself, so until that is done this job fails on the configure-pages step.
+# Pages is already enabled for this repository with Source: "GitHub Actions"
+# (Settings -> Pages). If it is ever switched off, this job fails on the
+# configure-pages step until it is switched back on.
 name: Deploy to GitHub Pages
 
 on:
