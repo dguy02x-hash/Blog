@@ -1,4 +1,4 @@
-# My Video Blog
+# Dysign Studios
 
 A small, dependency-free video blog. Plain HTML, CSS and JavaScript — no build
 step, no framework, nothing to install. Hosted free on GitHub Pages.
